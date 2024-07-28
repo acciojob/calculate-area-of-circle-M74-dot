@@ -2,8 +2,9 @@
             // Get the radius from the user using the prompt() function
             let radius = prompt("Enter the radius of the circle:");
             // write you code here and display the result to the user
-		 let ans = 3.14*radius*radius;
-		 alert(ans.toFixed(2));
-           
+		 const area = Math.PI * Math.pow(radius, 2);
+		 alert(area.toFixed(2));
+
+	 
 }
 calculateArea();
